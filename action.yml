@@ -1,0 +1,13 @@
+name: 'Clarity setup'
+description: 'Setup the Clarity CLI'
+branding:
+  icon: upload-cloud
+  color: blue
+inputs:
+  version:
+    required: false
+    description: Clarity CLI version
+    default: '0.0'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
